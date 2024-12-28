@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    color: #666;
+  }
+  
+  .navigation ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  .navigation li {
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #666;
+  }
+  
+  .navigation .active {
+    border-bottom: 2px solid orange;
+    color: #000;
+  }
+  
+  .floor-plan {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 5px;;
+  }
+  
+  .floor-plan img {
+    max-width: 50%;
+  }
+  .floor-plan p{
+    margin-top: 10px;
+  }
+  .details {
+    padding: 20px;
+  }
+  
+  .details h2 {
+    font-size: 1.5em;
+  }
+  
+  .highlight {
+    color: orange;
+  }
+  button {
+    background-color: transparent;
+    color:black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .gallery {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .gallery img {
+    max-width: 90%;
+    height:450px;
+    width:1000px;
+    margin-bottom: 20px;
+  }
+  
+  .gallery .navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .gallery button {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+  }    
