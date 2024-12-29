@@ -1,9 +1,9 @@
-import map from "./con.jpg"
+/*import map from "./con.jpg"*/
 function Contacts()
 {
     return(
         <>
- <div style={{backgroundImage: `url(${map})`,paddingTop:"2%"}}>
+ <div style={{backgroundColor:"grey",paddingTop:"2%"}}>
      <div className="container " style={{marginLeft:"10%",marginRight:"10%"}}>
      <h4 style={{color:"#f15a24",textSize:"0.5rem",paddingTop:"2%"}}>--CONTACTS--</h4>
        <div className="image row row-cols-1 row-cols-md-3 g-3 mt-3 gap-5">
